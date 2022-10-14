@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    gap: 10px;
+    width: 93%;
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.main-conatiner{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 10px;
+
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 19px;
+    background: bisque;
+}
+.details-container{
+    display: inline-grid;
+    gap: 5px;   
+}
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.details-header{
+    min-width: 100px;
+}
+.card-img{
+    width: 153px;
+}

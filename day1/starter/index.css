@@ -1,0 +1,64 @@
+*{
+  /* margin: 0px; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+body{
+  /* display: grid; */
+  /* gap: 10px; */
+  margin: auto;
+  /* gap: 10px; */
+  width: 97%;
+  background-color: rgb(48, 77, 46);
+}
+header{
+  font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(225, 226, 173);
+    /* text-size-adjust: 50px; */
+
+}
+img{
+    width: 160px;
+    border: 2px solid rgb(48, 26, 26);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+th{
+  text-align:start;
+}
+.imgCont{
+  justify-content: center;
+  border: 2px solid rgb(245, 243, 243);
+}
+.main-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+    padding: 5px 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgb(226, 206, 252);
+}
+.details-table{
+  gap: 5px;   
+}
+
+
+/* <div class = card>
+  <img src="" alt="" weidth="", height="", class=img>
+  <table class=details-table>
+    <tr class=details>
+      <td>value</td>
+      <td>data</td>
+    </tr>
+  </table>
+</div> */
